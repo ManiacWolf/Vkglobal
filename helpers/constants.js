@@ -1,0 +1,12 @@
+export const SELF_LOGIN_API = `${process.env.API_SERVER}/login`;
+export const USER_CREATE_API = `${process.env.API_SERVER}/login/create`;
+export const USER_PHONE_VERIFY = `${process.env.API_SERVER}/login/verify`;
+export const GET_BOOKS_API = `${process.env.API_SERVER}/master/books`;
+export const GET_CHAPTERS_API = `${process.env.API_SERVER}/master/chapters`; //${bookid};
+export const GET_CHAPTER_CATEGORIES = `${process.env.API_SERVER}/master/chapter-categories`;
+export const GET_QUETIONS = `${process.env.API_SERVER}/master/questions`;
+export const GET_EXTERNAL = `${process.env.API_SERVER}/master/external`;
+export const GET_BOOKS = `${process.env.API_SERVER}/web/books`;
+export const POST_PAPER = `${process.env.API_SERVER}/master/paper`;
+export const GET_PAPERS = `${process.env.API_SERVER}/master/papers`;
+export const GET_PAPER = `${process.env.API_SERVER}/master/paper`;
